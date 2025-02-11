@@ -1,6 +1,7 @@
 <template>
   <DefaultLayout>
     <template v-slot:mainContent>
+      <!--  We could add virtual dom here or add scrolling-->
       <!-- <div ref="containerRef" v-bind="containerProps" class="h-[600px] overflow-y-auto border p-4">
         <draggable v-model="homeStore.wordsData" item-key="order" class="space-y-2">
           <template #item="">
